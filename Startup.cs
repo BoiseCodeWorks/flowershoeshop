@@ -37,6 +37,9 @@ namespace markoz
 
             //TODO REGISTER ALL REPOSITORIES!!!!!
             services.AddTransient<ShoeRepository>();
+            services.AddTransient<FlowerRepository>();
+            services.AddTransient<StoreRepository>();
+            services.AddTransient<BouquetRepository>();
         }
 
         //NOTE opens connection to database and returns connection to whomever needs it
